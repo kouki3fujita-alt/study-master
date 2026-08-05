@@ -42,6 +42,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | ボラティリティ・デリバティブ | [Variance Risk Premiums](notes/03_Finance/01_Derivatives/2009_Carr_VarianceRiskPremiums.md) | Peter Carr, Liuren Wu | 2009 | オプションから合成した分散スワップ・レートと実現分散を比較し、市場分散の保険料を直接測定する |
+| 市場マイクロストラクチャー | [Futures Markets, Regulation and Volatility](notes/03_Finance/01_Derivatives/1994_Bacha_FuturesMarketsRegulationVolatility.md) | Obiyathulla Bacha, Anne Fremault Vila | 1994 | 日経225先物の複数市場への上場を利用し、先物導入・規制・満期日が現物ボラティリティへ与える影響を検証する |
 
 ## この論文から伸びる研究テーマ
 
@@ -51,6 +52,8 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - ジャンプ、左側テール、vol-of-vol の価格
 - 分散リスク・プレミアムの期間構造
 - ショート・ボラティリティ戦略のテールリスク
+- 株価指数先物の導入と現物市場ボラティリティ
+- 証拠金・値幅制限・取引方式が価格発見と市場安定性へ与える影響
 
 ## 表記上の注意
 
