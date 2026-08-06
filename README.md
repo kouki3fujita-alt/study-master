@@ -58,6 +58,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 商品・分散リスク | [Variance Risk in Commodity Markets](notes/03_Finance/01_Derivatives/2017_Prokopczuk_VarianceRiskCommodityMarkets.md) | Marcel Prokopczuk, Lazaros Symeonidis, Chardin Wese Simen | 2017（2014年稿） | 21商品市場の合成分散スワップを調べ、商品分散リスクが先物価格リスクとは別のリスクであることを示す |
 | 暗号資産・分散リスク | [The Bitcoin VIX and Its Variance Risk Premium](notes/03_Finance/01_Derivatives/2021_Alexander_Imeraj_BitcoinVIX.md) | Carol Alexander, Arben Imeraj | 2021 | DeribitオプションからBitcoin VIXの期間構造とVRPを構築し、ジャンプ誤差と危機時の分散投資便益を検証する |
 | 社債・分散リスク | [Synthetic Options and Implied Volatility for the Corporate Bond Market](notes/03_Finance/01_Derivatives/2023_Chen_SyntheticCorporateBondOptions.md) | Steven Shu-Hsiu Chen, Hitesh Doshi, Sang Byung Seo | 2023 | CDXスワップションから社債指数オプションとCBVIXを合成し、社債VRPを測定する |
+| VIX・満期補間 | [VIX Maturity Interpolation](notes/03_Finance/01_Derivatives/2024_Andersen_VIXMaturityInterpolation.md) | Torben G. Andersen, Oleg Bondarenko, Maria T. Gonzalez-Perez | 2024 | 月次オプションだけの旧VIXに生じる満期補間誤差を測定し、週次オプション導入が30日VIXの誤差を約10分の1へ縮小した一方、VIX9Dには曜日バイアスが残ることを示す |
 | 暗号資産・ジャンプリスク | [Jump Risk Premia in the Presence of Clustered Jumps](notes/03_Finance/01_Derivatives/2025_Liu_JumpRiskPremiaClusteredJumps.md) | Francis Liu, Natalie Packham, Artur Sepp | 2025 | 正負ジャンプの群発を二変量Hawkes過程でモデル化し、BTCのジャンプ・プレミアを先物ベーシスとオプション収益へ結び付ける |
 | VIX・指数算出方法（公式資料） | [Cboe Volatility Index Mathematics Methodology](notes/03_Finance/01_Derivatives/2026_Cboe_VolatilityIndexMathematicsMethodology.md) | Cboe | 2026 | VIX型指数をOTMオプション群から構築する分散複製式、一定満期補間、金利処理、気配値フィルターを定める公式数学仕様 |
 
@@ -90,6 +91,8 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - 一定満期VIXにおける期間分散補間、分単位の時間計測、金利曲線補間
 - VIXの指数レベル・オプション系列レベルの気配値フィルターと高頻度価格発見
 - VIX方法書の版変更、ゼロbid・ask除外、長期系列の構造変化
+- VIXMOとVIXWEの構造変化、満期補間誤差、total varianceとannualized variance
+- VIX9D・VIX1Dの曜日効果、weekend variance、短期オプションの満期グリッド
 - ジャンプ、左側テール、vol-of-vol の価格
 - 正負ジャンプの自己励起・交差励起、Hawkes過程、時変IVスキュー
 - BTCのジャンプ・リスクプレミア、先物ベーシス、funding、デルタヘッジP&L
