@@ -47,6 +47,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 商品・分散リスク | [Variance Risk in Commodity Markets](notes/03_Finance/01_Derivatives/2017_Prokopczuk_VarianceRiskCommodityMarkets.md) | Marcel Prokopczuk, Lazaros Symeonidis, Chardin Wese Simen | 2017（2014年稿） | 21商品市場の合成分散スワップを調べ、商品分散リスクが先物価格リスクとは別のリスクであることを示す |
 | 暗号資産・分散リスク | [The Bitcoin VIX and Its Variance Risk Premium](notes/03_Finance/01_Derivatives/2021_Alexander_Imeraj_BitcoinVIX.md) | Carol Alexander, Arben Imeraj | 2021 | DeribitオプションからBitcoin VIXの期間構造とVRPを構築し、ジャンプ誤差と危機時の分散投資便益を検証する |
 | 社債・分散リスク | [Synthetic Options and Implied Volatility for the Corporate Bond Market](notes/03_Finance/01_Derivatives/2023_Chen_SyntheticCorporateBondOptions.md) | Steven Shu-Hsiu Chen, Hitesh Doshi, Sang Byung Seo | 2023 | CDXスワップションから社債指数オプションとCBVIXを合成し、社債VRPを測定する |
+| 個人投資家・オプション需給 | [Retail Option Traders and the Implied Volatility Surface](notes/03_Finance/01_Derivatives/2026_Eaton_RetailOptionTradersIVSurface.md) | Gregory W. Eaton, T. Clifton Green, Brian S. Roseman, Yanbin Wu | 2026 | 証券会社の障害を外生ショックとして、個人の短期・OTM・コール需要がIVサーフェスを歪めることを示す |
 
 ## この論文から伸びる研究テーマ
 
@@ -57,6 +58,8 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - 分散リスク・プレミアムの期間構造
 - Bitcoin VIX、暗号資産の分散期間構造、危機時の分散投資便益
 - ショート・ボラティリティ戦略のテールリスク
+- 個人投資家のオプション需要、ディーラー在庫制約、IVサーフェスの形状
+- 0DTE・短期オプションの注文フローとIV期間構造
 - 株価指数先物の導入と現物市場ボラティリティ
 - 証拠金・値幅制限・取引方式が価格発見と市場安定性へ与える影響
 - DCC、BEKK、GARCCによる時変共分散・相関モデリング
