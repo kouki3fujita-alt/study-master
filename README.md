@@ -49,6 +49,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 社債・分散リスク | [Synthetic Options and Implied Volatility for the Corporate Bond Market](notes/03_Finance/01_Derivatives/2023_Chen_SyntheticCorporateBondOptions.md) | Steven Shu-Hsiu Chen, Hitesh Doshi, Sang Byung Seo | 2023 | CDXスワップションから社債指数オプションとCBVIXを合成し、社債VRPを測定する |
 | ボラティリティ予測 | [The Relation between Implied and Realized Volatility](notes/03_Finance/01_Derivatives/1998_Christensen_Prabhala_ImpliedRealizedVolatility.md) | Bent Jesper Christensen, Nagpurnanand R. Prabhala | 1998 | 非重複月次標本と測定誤差補正により、OEX ATM IVが過去RVを上回り、その情報を包含することを示す |
 | 個人投資家・オプション需給 | [Retail Option Traders and the Implied Volatility Surface](notes/03_Finance/01_Derivatives/2026_Eaton_RetailOptionTradersIVSurface.md) | Gregory W. Eaton, T. Clifton Green, Brian S. Roseman, Yanbin Wu | 2026 | 証券会社の障害を外生ショックとして、個人の短期・OTM・コール需要がIVサーフェスを歪めることを示す |
+| 市場構造・規制（当局レポート） | [Staff Report on Equity and Options Market Structure Conditions in Early 2021](notes/03_Finance/01_Derivatives/2021_SEC_EquityOptionsMarketStructureEarly2021.md) | SEC Staff | 2021 | 2021年1月のGameStop急騰をCAT等の当局データで検証し、ショートスクイーズが主因ではなくガンマスクイーズの証拠もないこと、取引制限がNSCC証拠金への反応であったことを示す |
 
 ## この論文から伸びる研究テーマ
 
@@ -67,6 +68,13 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - 証拠金・値幅制限・取引方式が価格発見と市場安定性へ与える影響
 - DCC、BEKK、GARCCによる時変共分散・相関モデリング
 - 二段階推定、モデルの正則条件、相関予測のout-of-sample比較
+- ミーム株、ソーシャルメディア、個人投資家の集団的取引と価格形成
+- ショートスクイーズ、ガンマスクイーズ、空売り制約とバブル
+- 空売り残高の再貸出による100%超、フェイル・トゥ・デリバー、裸空売りの識別
+- PFOF、注文フローのセグメンテーション、内部化と執行品質の測定
+- 清算機関の証拠金モデル、日中マージンコール、決済サイクル短縮（T+1）
+- LULD、サーキットブレーカー、ボラティリティ急騰時の板の厚みとスプレッド
+- 均等ウェイトETFの組入比率膨張、ETFの空売りとNAV乖離
 
 ## 表記上の注意
 
