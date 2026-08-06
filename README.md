@@ -42,6 +42,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | ボラティリティ・デリバティブ | [Variance Risk Premiums](notes/03_Finance/01_Derivatives/2009_Carr_VarianceRiskPremiums.md) | Peter Carr, Liuren Wu | 2009 | オプションから合成した分散スワップ・レートと実現分散を比較し、市場分散の保険料を直接測定する |
+| 相関リスク・デリバティブ | [Option-Implied Correlations and the Price of Correlation Risk](notes/03_Finance/01_Derivatives/2005_Driessen_OptionImpliedCorrelations.md) | Joost Driessen, Pascal Maenhout, Grigory Vilkov | 2005（2009年公刊版あり） | 指数と構成銘柄のモデルフリー・インプライド分散から平均相関を逆算し、相関上昇保険の価格とdispersion tradingの源泉を示す |
 | 市場マイクロストラクチャー | [Futures Markets, Regulation and Volatility](notes/03_Finance/01_Derivatives/1994_Bacha_FuturesMarketsRegulationVolatility.md) | Obiyathulla Bacha, Anne Fremault Vila | 1994 | 日経225先物の複数市場への上場を利用し、先物導入・規制・満期日が現物ボラティリティへ与える影響を検証する |
 | 金融計量・相関モデル | [Ten Things You Should Know about the Dynamic Conditional Correlation Representation](notes/03_Finance/01_Derivatives/2013_Caporin_TenThingsDCC.md) | Massimiliano Caporin, Michael McAleer | 2013 | DCCを厳密なモデルではなくフィルターとして捉えるべき理由を10の理論的・実証的注意点から整理する |
 | 商品・分散リスク | [Variance Risk in Commodity Markets](notes/03_Finance/01_Derivatives/2017_Prokopczuk_VarianceRiskCommodityMarkets.md) | Marcel Prokopczuk, Lazaros Symeonidis, Chardin Wese Simen | 2017（2014年稿） | 21商品市場の合成分散スワップを調べ、商品分散リスクが先物価格リスクとは別のリスクであることを示す |
@@ -57,6 +58,9 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 
 - Variance risk premium と将来株式リターン
 - 指数分散と個別株分散の差、および dispersion trading
+- Implied correlation、realized correlation、correlation risk premiumの識別
+- 相関スワップ、sector dispersion、相関期間構造と0DTE
+- 危機時の相関上昇、分散効果消失、ポートフォリオのストレス相関
 - VIX、variance swap、volatility swap の関係
 - ジャンプ、左側テール、vol-of-vol の価格
 - 正負ジャンプの自己励起・交差励起、Hawkes過程、時変IVスキュー

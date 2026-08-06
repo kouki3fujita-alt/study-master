@@ -57,8 +57,7 @@ d
 \begin{pmatrix}
 \lambda_t^+\\
 \lambda_t^-
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 \kappa^+(\theta^+-\lambda_t^+)\\
 \kappa^-(\theta^--\lambda_t^-)
