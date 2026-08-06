@@ -59,6 +59,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 暗号資産・分散リスク | [The Bitcoin VIX and Its Variance Risk Premium](notes/03_Finance/01_Derivatives/2021_Alexander_Imeraj_BitcoinVIX.md) | Carol Alexander, Arben Imeraj | 2021 | DeribitオプションからBitcoin VIXの期間構造とVRPを構築し、ジャンプ誤差と危機時の分散投資便益を検証する |
 | 社債・分散リスク | [Synthetic Options and Implied Volatility for the Corporate Bond Market](notes/03_Finance/01_Derivatives/2023_Chen_SyntheticCorporateBondOptions.md) | Steven Shu-Hsiu Chen, Hitesh Doshi, Sang Byung Seo | 2023 | CDXスワップションから社債指数オプションとCBVIXを合成し、社債VRPを測定する |
 | 暗号資産・ジャンプリスク | [Jump Risk Premia in the Presence of Clustered Jumps](notes/03_Finance/01_Derivatives/2025_Liu_JumpRiskPremiaClusteredJumps.md) | Francis Liu, Natalie Packham, Artur Sepp | 2025 | 正負ジャンプの群発を二変量Hawkes過程でモデル化し、BTCのジャンプ・プレミアを先物ベーシスとオプション収益へ結び付ける |
+| VIX・指数算出方法（公式資料） | [Cboe Volatility Index Mathematics Methodology](notes/03_Finance/01_Derivatives/2026_Cboe_VolatilityIndexMathematicsMethodology.md) | Cboe | 2026 | VIX型指数をOTMオプション群から構築する分散複製式、一定満期補間、金利処理、気配値フィルターを定める公式数学仕様 |
 
 ### ポートフォリオ理論・ファクター・リスクモデル
 
@@ -85,6 +86,10 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - 相関スワップ、sector dispersion、相関期間構造と0DTE
 - 危機時の相関上昇、分散効果消失、ポートフォリオのストレス相関
 - VIX、variance swap、volatility swap の関係
+- VIXの離散複製、ストライク打切り、$\Delta K/K^2$ 重みと再現誤差
+- 一定満期VIXにおける期間分散補間、分単位の時間計測、金利曲線補間
+- VIXの指数レベル・オプション系列レベルの気配値フィルターと高頻度価格発見
+- VIX方法書の版変更、ゼロbid・ask除外、長期系列の構造変化
 - ジャンプ、左側テール、vol-of-vol の価格
 - 正負ジャンプの自己励起・交差励起、Hawkes過程、時変IVスキュー
 - BTCのジャンプ・リスクプレミア、先物ベーシス、funding、デルタヘッジP&L
