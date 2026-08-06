@@ -54,6 +54,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | ボラティリティ予測 | [The Relation between Implied and Realized Volatility](notes/03_Finance/01_Derivatives/1998_Christensen_Prabhala_ImpliedRealizedVolatility.md) | Bent Jesper Christensen, Nagpurnanand R. Prabhala | 1998 | 非重複月次標本と測定誤差補正により、OEX ATM IVが過去RVを上回り、その情報を包含することを示す |
 | 相関リスク・デリバティブ | [Option-Implied Correlations and the Price of Correlation Risk](notes/03_Finance/01_Derivatives/2005_Driessen_OptionImpliedCorrelations.md) | Joost Driessen, Pascal Maenhout, Grigory Vilkov | 2005（2009年公刊版あり） | 指数と構成銘柄のモデルフリー・インプライド分散から平均相関を逆算し、相関上昇保険の価格とdispersion tradingの源泉を示す |
 | ボラティリティ・デリバティブ | [Variance Risk Premiums](notes/03_Finance/01_Derivatives/2009_Carr_VarianceRiskPremiums.md) | Peter Carr, Liuren Wu | 2009 | オプションから合成した分散スワップ・レートと実現分散を比較し、市場分散の保険料を直接測定する |
+| 個別株オプション・情報取引 | [What Does the Individual Option Volatility Smirk Tell Us About Future Equity Returns?](notes/03_Finance/01_Derivatives/2010_Xing_OptionVolatilitySmirkEquityReturns.md) | Yuhang Xing, Xiaoyan Zhang, Rui Zhao | 2010 | OTMプットIVとATMコールIVの差が大きい銘柄ほど将来リターンと決算サプライズが悪く、オプション市場の悪材料が現物市場に先行することを示す |
 | 商品・分散リスク | [Variance Risk in Commodity Markets](notes/03_Finance/01_Derivatives/2017_Prokopczuk_VarianceRiskCommodityMarkets.md) | Marcel Prokopczuk, Lazaros Symeonidis, Chardin Wese Simen | 2017（2014年稿） | 21商品市場の合成分散スワップを調べ、商品分散リスクが先物価格リスクとは別のリスクであることを示す |
 | 暗号資産・分散リスク | [The Bitcoin VIX and Its Variance Risk Premium](notes/03_Finance/01_Derivatives/2021_Alexander_Imeraj_BitcoinVIX.md) | Carol Alexander, Arben Imeraj | 2021 | DeribitオプションからBitcoin VIXの期間構造とVRPを構築し、ジャンプ誤差と危機時の分散投資便益を検証する |
 | 社債・分散リスク | [Synthetic Options and Implied Volatility for the Corporate Bond Market](notes/03_Finance/01_Derivatives/2023_Chen_SyntheticCorporateBondOptions.md) | Steven Shu-Hsiu Chen, Hitesh Doshi, Sang Byung Seo | 2023 | CDXスワップションから社債指数オプションとCBVIXを合成し、社債VRPを測定する |
@@ -90,6 +91,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - Bitcoin VIX、暗号資産の分散期間構造、危機時の分散投資便益
 - ショート・ボラティリティ戦略のテールリスク
 - 個人投資家のオプション需要、ディーラー在庫制約、IVサーフェスの形状
+- 個別株volatility smirk、OTMプットの情報取引、将来株式リターンと決算サプライズ
 - インプライド・ボラティリティの実現ボラティリティ予測力、情報包含、測定誤差
 - 重複予測窓、HAC・操作変数法、1987年暴落前後の構造変化
 - 決算expected move、既知時刻ジャンプ、イベント分散リスク・プレミアム
