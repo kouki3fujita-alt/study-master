@@ -15,12 +15,14 @@ papers/                         # 手元で管理する論文PDF
 │  └─ 02_Database/
 ├─ 03_Finance/
 │  ├─ 01_Derivatives/
-│  └─ 02_Fixed_Income/
+│  ├─ 02_Fixed_Income/
+│  └─ 03_Systematic_Trading/
 └─ 99_Others/
 
 notes/                          # 議論・要約・批判的検討
 └─ 03_Finance/
-   └─ 01_Derivatives/
+   ├─ 01_Derivatives/
+   └─ 03_Systematic_Trading/
 ```
 
 PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `2009_Carr_VarianceRiskPremiums.pdf`。
@@ -53,6 +55,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 暗号資産・ジャンプリスク | [Jump Risk Premia in the Presence of Clustered Jumps](notes/03_Finance/01_Derivatives/2025_Liu_JumpRiskPremiaClusteredJumps.md) | Francis Liu, Natalie Packham, Artur Sepp | 2025 | 正負ジャンプの群発を二変量Hawkes過程でモデル化し、BTCのジャンプ・プレミアを先物ベーシスとオプション収益へ結び付ける |
 | 個人投資家・オプション需給 | [Retail Option Traders and the Implied Volatility Surface](notes/03_Finance/01_Derivatives/2026_Eaton_RetailOptionTradersIVSurface.md) | Gregory W. Eaton, T. Clifton Green, Brian S. Roseman, Yanbin Wu | 2026 | 証券会社の障害を外生ショックとして、個人の短期・OTM・コール需要がIVサーフェスを歪めることを示す |
 | 市場構造・規制（当局レポート） | [Staff Report on Equity and Options Market Structure Conditions in Early 2021](notes/03_Finance/01_Derivatives/2021_SEC_EquityOptionsMarketStructureEarly2021.md) | SEC Staff | 2021 | 2021年1月のGameStop急騰をCAT等の当局データで検証し、ショートスクイーズが主因ではなくガンマスクイーズの証拠もないこと、取引制限がNSCC証拠金への反応であったことを示す |
+| CTA・トレンドフォロー | [The Risk in Hedge Fund Strategies: Theory and Evidence from Trend Followers](notes/03_Finance/03_Systematic_Trading/2001_Fung_Hsieh_RiskTrendFollowers.md) | William Fung, David A. Hsieh | 2001 | トレンドフォロー収益をルックバック・ストラドル型の非線形ペイオフとして捉え、通常の資産指数よりPTFSがCTA収益をよく説明することを示す |
 
 ## この論文から伸びる研究テーマ
 
@@ -85,6 +88,9 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - 清算機関の証拠金モデル、日中マージンコール、決済サイクル短縮（T+1）
 - LULD、サーキットブレーカー、ボラティリティ急騰時の板の厚みとスプレッド
 - 均等ウェイトETFの組入比率膨張、ETFの空売りとNAV乖離
+- CTA・トレンドフォローの非線形ベータ、正の歪度、危機時分散
+- ルックバック・ストラドル、時系列モメンタム、ブレイクアウト戦略の対応関係
+- PTFSによる戦略ベースのファクター分析とファンド別ベンチマーク
 
 ## 表記上の注意
 
