@@ -290,9 +290,9 @@
 
 **空売り残高比率（short interest ratio）**
 
-$$
+```math
 SIR_{i,t}=\frac{\text{空売り株数}_{i,t}}{\text{発行済株式数}_{i,t}}
-$$
+```
 
 Figure 5では、空売り株数はCompustat North America Supplemental Short Interest File（NYSE・Nasdaq上場銘柄）から隔週で取得し、発行済株式数はCRSP日次株式ファイルから取得する。空売り残高は決済日基準で報告されるため、**報告日の2営業日前の取引日**にマッチさせる。標本は非金融（SICコード6000〜6999を除外）の普通株（CRSP share code 10または11）。Blocher and Ringgenberg (2019) に従い、空売り残高比率と調整後空売り残高比率（株式分割・自社株買い等で調整）が10%超乖離する銘柄を除外する。比較対象グループについては、記録日2営業日前の終値×発行済株式数を時価総額ウェイトとする価値加重平均を取る。
 

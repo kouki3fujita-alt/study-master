@@ -90,14 +90,14 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 
 Variance risk premium は文献によって符号が逆です。Carr and Wu (2009) は
 
-$$
+```math
 RP_{t,T}=RV_{t,T}-SW_{t,T}
-$$
+```
 
 と定義するため、分散ロングが保険料を支払う通常の状態では負になります。近年よく使われる
 
-$$
+```math
 VRP_t=SW_{t,T}-E_t^P[RV_{t,T}]
-$$
+```
 
 という定義では、同じ現象が正の値になります。各ノートでは、必ず採用した符号規約を明示します。

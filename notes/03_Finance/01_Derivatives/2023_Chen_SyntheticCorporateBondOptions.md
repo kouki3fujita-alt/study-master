@@ -32,21 +32,21 @@
 
 デフォルト可能な変動利付債（FRN）は、概念的に
 
-$$
+```math
 \text{defaultable FRN}
 =
 \text{default-free FRN}
 -
 \text{credit protection}
-$$
+```
 
 と表せる。したがって、CDS/CDXのupfront feeから合成FRN価格を推定できる。
 
 CDX North American Investment Gradeは、5業種にまたがる125社の投資適格CDSを等ウェイトで含む。著者らはCDXのupfront fee $U_t^{CDX}$ を使い、5年一定満期の合成社債指数を概ね
 
-$$
+```math
 P_t^{CB}=1-U_t^{CDX}
-$$
+```
 
 として構成する。
 
@@ -57,17 +57,17 @@ $$
 
 CDXスプレッド上昇は社債価格下落に対応するため、
 
-$$
+```math
 \text{payer CDX swaption}
 \longleftrightarrow
 \text{put on synthetic bond index}
-$$
+```
 
-$$
+```math
 \text{receiver CDX swaption}
 \longleftrightarrow
 \text{call on synthetic bond index}
-$$
+```
 
 という関係を利用できる。ストライクupfront feeを $K_U$ とすれば、社債指数側のストライクは概ね $K_P=1-K_U$ となる。
 
@@ -79,11 +79,11 @@ $$
 
 論文の符号規約は
 
-$$
+```math
 VRP_t^{CB}
 =E_t^Q[RV_{t,t+\tau}^{CB}]
 -E_t^P[RV_{t,t+\tau}^{CB}]
-$$
+```
 
 である。Carr–Wuの `RV-SW` とは逆で、保険料が高い通常の状態では正になる。
 
