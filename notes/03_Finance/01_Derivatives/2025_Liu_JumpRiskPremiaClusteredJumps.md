@@ -31,8 +31,7 @@ Bitcoinの大きな上昇・下落は独立に発生するのではなく、い�
 BTC価格を、連続的なBrownian部分と、正負二種類のジャンプ部分へ分ける。
 
 $$
-\frac{dS_t}{S_{t-}}
-=
+\frac{dS_t}{S_{t-}}=
 \mu dt+\sigma dW_t
 +\left[(e^{J^+}-1)dN_t^+
 -\lambda_t^+E(e^{J^+}-1)dt\right]
@@ -57,8 +56,7 @@ d
 \begin{pmatrix}
 \lambda_t^+\\
 \lambda_t^-
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 \kappa^+(\theta^+-\lambda_t^+)\\
 \kappa^-(\theta^--\lambda_t^-)
@@ -92,8 +90,7 @@ $J^-<0$なので、論文は $\beta_{12},\beta_{22}\le0$ と置き、負ジャ�
 各日、連続ボラティリティ $\sigma$ と $\chi^+,\chi^-$ を、観測IVとモデルIVのvega加重MAPEが最小になるよう推定する。
 
 $$
-(\hat\sigma,\hat\chi^+,\hat\chi^-)
-=
+(\hat\sigma,\hat\chi^+,\hat\chi^-)=
 \arg\min
 \sum_i w_i
 \frac{|IV_i^{market}-IV_i^{model}|}{IV_i^{market}},
@@ -106,18 +103,14 @@ $$
 論文の重要な定義は、$Q$測度と$P$測度における「強度×期待価格ジャンプ」の差である。
 
 $$
-\gamma_t^+
-=
+\gamma_t^+=
 \lambda_t^{+,Q}E^Q(e^{J^{+,Q}}-1)
--
-\lambda_t^+E^P(e^{J^+}-1),
+-\lambda_t^+E^P(e^{J^+}-1),
 $$
 
 $$
-\gamma_t^-
-=
-\lambda_t^{-,Q}E^Q(e^{J^{-,Q}}-1)
--
+\gamma_t^-=
+\lambda_t^{-,Q}E^Q(e^{J^{-,Q}}-1)-
 \lambda_t^-E^P(e^{J^-}-1).
 $$
 
