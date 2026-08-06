@@ -6,6 +6,7 @@
 - **著者**: Joost Driessen, Pascal Maenhout, Grigory Vilkov
 - **版**: 2005年11月 working paper（61頁）
 - **原論文PDF**: https://www.fbv.kit.edu/symposium/10th/papers/Vilkov_Driessen_Maenhout%20-%20Option-Implied%20Correlations%20and%20the%20Price%20of%20Correlation%20Risk%20.pdf
+- **リポジトリ内PDF**: [2005_Driessen_OptionImpliedCorrelations.pdf](../../../papers/03_Finance/01_Derivatives/2005_Driessen_OptionImpliedCorrelations.pdf)
 - **公刊版**: Driessen, Maenhout and Vilkov (2009), “The Price of Correlation Risk: Evidence from Equity Options,” *Journal of Finance* 64(3), 1377–1406. https://doi.org/10.1111/j.1540-6261.2009.01467.x
 - **キーワード**: implied correlation, correlation risk premium, dispersion trading, index variance, variance swap, stochastic correlation
 
