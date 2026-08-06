@@ -5,7 +5,6 @@
 - **論文名**: *Option-Implied Correlations and the Price of Correlation Risk*
 - **著者**: Joost Driessen, Pascal Maenhout, Grigory Vilkov
 - **版**: 2005年11月 working paper（61頁）
-- **保存PDF**: [2005_Driessen_OptionImpliedCorrelations.pdf](../../../papers/03_Finance/01_Derivatives/2005_Driessen_OptionImpliedCorrelations.pdf)
 - **原論文PDF**: https://www.fbv.kit.edu/symposium/10th/papers/Vilkov_Driessen_Maenhout%20-%20Option-Implied%20Correlations%20and%20the%20Price%20of%20Correlation%20Risk%20.pdf
 - **公刊版**: Driessen, Maenhout and Vilkov (2009), “The Price of Correlation Risk: Evidence from Equity Options,” *Journal of Finance* 64(3), 1377–1406. https://doi.org/10.1111/j.1540-6261.2009.01467.x
 - **キーワード**: implied correlation, correlation risk premium, dispersion trading, index variance, variance swap, stochastic correlation
@@ -178,7 +177,7 @@ IC上昇は「市場が将来の一斉変動と分散効果消失を高く価格
 - **流動性差**: 指数オプションと個別株オプションではスプレッド、取引頻度、スキューが異なる。補間済みサーフェスはノイズを減らすが、モデル選択を完全には消さない。
 - **物理予測の難しさ**: $E^P[RC]$ は観測不能。過去RCを代理にすると、リスク・プレミアムと予測誤差が混ざる。
 - **2005年版固有の主張**: 「個別分散リスクが価格付けされない」「指数分散プレミアムの全てが相関リスク」という結論は、1996–2003年のS&P 100、30日満期、当時のデータとモデル仮定に依存する。
-- **公刊版との相違**: 2009年公刊版はworking paperから発展しており、取引戦略・摩擦・オプション収益の横断面に重点が移っている。厳密な引用では保存PDFの版を明示する。
+- **公刊版との相違**: 2009年公刊版はworking paperから発展しており、取引戦略・摩擦・オプション収益の横断面に重点が移っている。厳密な引用ではworking paper版と公刊版のどちらを参照したか明示する。
 
 ## 10. 批判的評価
 
