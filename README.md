@@ -73,6 +73,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 |---|---|---|---:|---|
 | 市場マイクロストラクチャー | [Futures Markets, Regulation and Volatility](notes/03_Finance/01_Derivatives/1994_Bacha_FuturesMarketsRegulationVolatility.md) | Obiyathulla Bacha, Anne Fremault Vila | 1994 | 日経225先物の複数市場への上場を利用し、先物導入・規制・満期日が現物ボラティリティへ与える影響を検証する |
 | 決算イベント・オプション | [Earnings Announcements and Equity Options](notes/03_Finance/01_Derivatives/2004_Dubinsky_Johannes_EarningsAnnouncementsEquityOptions.md) | Andrew Dubinsky, Michael Johannes | 2004/2006 | 既知時刻の決算ジャンプをIV期間構造から抽出し、イベントジャンプを入れると短期オプションの価格誤差が大幅に縮小することを示す |
+| 空売りデータ・市場構造（当局資料） | [Understanding Short Sale Volume Data on FINRA’s Website](notes/03_Finance/03_Systematic_Trading/2019_FINRA_UnderstandingShortSaleVolume.md) | FINRA | 2019 | FINRAのshort sale volumeは公開取引フローであり、short interestというポジション残高ではなく、取引所データとの統合と報告構造の理解が不可欠だと説明する |
 | 市場構造・規制（当局レポート） | [Staff Report on Equity and Options Market Structure Conditions in Early 2021](notes/03_Finance/01_Derivatives/2021_SEC_EquityOptionsMarketStructureEarly2021.md) | SEC Staff | 2021 | 2021年1月のGameStop急騰をCAT等の当局データで検証し、ショートスクイーズが主因ではなくガンマスクイーズの証拠もないこと、取引制限がNSCC証拠金への反応であったことを示す |
 | 個人投資家・オプション需給 | [Retail Option Traders and the Implied Volatility Surface](notes/03_Finance/01_Derivatives/2026_Eaton_RetailOptionTradersIVSurface.md) | Gregory W. Eaton, T. Clifton Green, Brian S. Roseman, Yanbin Wu | 2026 | 証券会社の障害を外生ショックとして、個人の短期・OTM・コール需要がIVサーフェスを歪めることを示す |
 
@@ -104,6 +105,9 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - ミーム株、ソーシャルメディア、個人投資家の集団的取引と価格形成
 - ショートスクイーズ、ガンマスクイーズ、空売り制約とバブル
 - 空売り残高の再貸出による100%超、フェイル・トゥ・デリバー、裸空売りの識別
+- FINRA short sale volumeとshort interestの識別、フローとポジション残高の違い
+- 取引所外出来高、trade reporting facility、取引所データの統合
+- ディーラー仲介、公開対象外の相殺取引、空売り比率の測定誤差
 - PFOF、注文フローのセグメンテーション、内部化と執行品質の測定
 - 清算機関の証拠金モデル、日中マージンコール、決済サイクル短縮（T+1）
 - LULD、サーキットブレーカー、ボラティリティ急騰時の板の厚みとスプレッド
