@@ -64,6 +64,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | 金融計量・相関モデル | [Ten Things You Should Know about the Dynamic Conditional Correlation Representation](notes/03_Finance/01_Derivatives/2013_Caporin_TenThingsDCC.md) | Massimiliano Caporin, Michael McAleer | 2013 | DCCを厳密なモデルではなくフィルターとして捉えるべき理由を10の理論的・実証的注意点から整理する |
+| ボラティリティ・ターゲティング | [The Impact of Volatility Targeting](notes/03_Finance/03_Systematic_Trading/2018_Harvey_ImpactVolatilityTargeting.md) | Campbell R. Harvey, Edward Hoyle, Russell Korgaonkar, Sandy Rattray, Matthew Sargaison, Otto Van Hemert | 2018 | 60超の資産を検証し、逆ボラティリティ調整は株式・クレジットのSharpe ratioを改善する一方、より普遍的な効果はテールとvol of volの抑制だと示す |
 
 ### イベントドリブン・市場マイクロストラクチャー・注文フロー
 
@@ -108,6 +109,9 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - CTA・トレンドフォローの非線形ベータ、正の歪度、危機時分散
 - ルックバック・ストラドル、時系列モメンタム、ブレイクアウト戦略の対応関係
 - PTFSによる戦略ベースのファクター分析とファンド別ベンチマーク
+- ボラティリティ・ターゲティング、leverage effect、暗黙の短期モメンタム
+- 逆ボラティリティ・サイジングがtail risk、vol of vol、最大ドローダウンへ与える効果
+- CTA・risk parityにおける方向シグナルとリスク・スケーリングの収益分解
 
 ## 表記上の注意
 
