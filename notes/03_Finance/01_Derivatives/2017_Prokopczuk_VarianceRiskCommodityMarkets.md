@@ -67,7 +67,7 @@ $$
 最も重要な結果は、実現・期待商品分散スワップ損益が、同じ商品の実現・期待先物リターンとは異なる情報を持つことである。
 
 $$
-$$\text{commodity variance risk}\notin\mathrm{span}(\text{commodity futures returns})$$
+$$ \text{commodity variance risk} \notin \mathrm{span}(\text{commodity futures returns}) $$
 $$
 
 価格方向の先物ポジションだけでは、分散上昇に対する保険を複製できない。商品デリバティブの価格付けやヘッジでは、価格因子とは別の確率的分散因子を考える必要がある。
