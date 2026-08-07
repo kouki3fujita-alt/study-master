@@ -77,6 +77,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 決算イベント・オプション | [Earnings Announcements and Equity Options](notes/03_Finance/01_Derivatives/2004_Dubinsky_Johannes_EarningsAnnouncementsEquityOptions.md) | Andrew Dubinsky, Michael Johannes | 2004/2006 | 既知時刻の決算ジャンプをIV期間構造から抽出し、イベントジャンプを入れると短期オプションの価格誤差が大幅に縮小することを示す |
 | 空売りデータ・市場構造（当局資料） | [Understanding Short Sale Volume Data on FINRA’s Website](notes/03_Finance/03_Systematic_Trading/2019_FINRA_UnderstandingShortSaleVolume.md) | FINRA | 2019 | FINRAのshort sale volumeは公開取引フローであり、short interestというポジション残高ではなく、取引所データとの統合と報告構造の理解が不可欠だと説明する |
 | 市場構造・規制（当局レポート） | [Staff Report on Equity and Options Market Structure Conditions in Early 2021](notes/03_Finance/01_Derivatives/2021_SEC_EquityOptionsMarketStructureEarly2021.md) | SEC Staff | 2021 | 2021年1月のGameStop急騰をCAT等の当局データで検証し、ショートスクイーズが主因ではなくガンマスクイーズの証拠もないこと、取引制限がNSCC証拠金への反応であったことを示す |
+| 0DTE・ディーラーガンマ | [0DTE Index Options and Market Volatility: How Large is Their Impact?](notes/03_Finance/01_Derivatives/2025_Amaya_0DTEIndexOptionsMarketVolatility.md) | Diego Amaya, Pedro A. Garcia-Ares, Neil D. Pearson, Aurelio Vasquez | 2025 | Cboe全取引記録からOMM集計ガンマを復元し、平均的なデルタヘッジは変動を抑える一方、負のガンマ局面では日次・30分ボラティリティを増幅するが最大効果も市場全体では異常に大きくないと示す |
 | 個人投資家・オプション需給 | [Retail Option Traders and the Implied Volatility Surface](notes/03_Finance/01_Derivatives/2026_Eaton_RetailOptionTradersIVSurface.md) | Gregory W. Eaton, T. Clifton Green, Brian S. Roseman, Yanbin Wu | 2026 | 証券会社の障害を外生ショックとして、個人の短期・OTM・コール需要がIVサーフェスを歪めることを示す |
 
 ## この論文から伸びる研究テーマ
@@ -106,6 +107,10 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - 決算expected move、既知時刻ジャンプ、イベント分散リスク・プレミアム
 - 決算前後のIV crush、カレンダースプレッド、確率的ボラティリティとの識別
 - 0DTE・短期オプションの注文フローとIV期間構造
+- OMM集計ガンマ、デルタヘッジ・フロー、S&P 500先物の一分実現ボラティリティ
+- 正・負のディーラーガンマが市場変動を吸収・増幅する非対称性
+- 0DTE出来高、系列別ネットポジション、ガンマスクイーズの識別
+- gamma、vanna、charm、speedを使った満期直前ヘッジ需要の推定
 - 株価指数先物の導入と現物市場ボラティリティ
 - 証拠金・値幅制限・取引方式が価格発見と市場安定性へ与える影響
 - DCC、BEKK、GARCCによる時変共分散・相関モデリング
