@@ -52,6 +52,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | ボラティリティ予測 | [The Relation between Implied and Realized Volatility](notes/03_Finance/01_Derivatives/1998_Christensen_Prabhala_ImpliedRealizedVolatility.md) | Bent Jesper Christensen, Nagpurnanand R. Prabhala | 1998 | 非重複月次標本と測定誤差補正により、OEX ATM IVが過去RVを上回り、その情報を包含することを示す |
+| オプション期待収益・ボラティリティリスク | [Expected Option Returns](notes/03_Finance/01_Derivatives/2001_Coval_ExpectedOptionReturns.md) | Joshua D. Coval, Tyler Shumway | 2001 | コールとプットの方向リスクを相殺したゼロベータ・ストラドルでも平均約3%の週次損失が残り、システマティックなボラティリティリスクが価格付けされている可能性を示す |
 | 相関リスク・デリバティブ | [Option-Implied Correlations and the Price of Correlation Risk](notes/03_Finance/01_Derivatives/2005_Driessen_OptionImpliedCorrelations.md) | Joost Driessen, Pascal Maenhout, Grigory Vilkov | 2005（2009年公刊版あり） | 指数と構成銘柄のモデルフリー・インプライド分散から平均相関を逆算し、相関上昇保険の価格とdispersion tradingの源泉を示す |
 | ボラティリティ・デリバティブ | [Variance Risk Premiums](notes/03_Finance/01_Derivatives/2009_Carr_VarianceRiskPremiums.md) | Peter Carr, Liuren Wu | 2009 | オプションから合成した分散スワップ・レートと実現分散を比較し、市場分散の保険料を直接測定する |
 | 個別株オプション・情報取引 | [What Does the Individual Option Volatility Smirk Tell Us About Future Equity Returns?](notes/03_Finance/01_Derivatives/2010_Xing_OptionVolatilitySmirkEquityReturns.md) | Yuhang Xing, Xiaoyan Zhang, Rui Zhao | 2010 | OTMプットIVとATMコールIVの差が大きい銘柄ほど将来リターンと決算サプライズが悪く、オプション市場の悪材料が現物市場に先行することを示す |
@@ -104,6 +105,9 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - 個別株volatility smirk、OTMプットの情報取引、将来株式リターンと決算サプライズ
 - インプライド・ボラティリティの実現ボラティリティ予測力、情報包含、測定誤差
 - 重複予測窓、HAC・操作変数法、1987年暴落前後の構造変化
+- オプション期待収益、暗黙のレバレッジ、Black–Scholes betaとCAPMの整合性
+- ゼロベータ・ストラドル、ボラティリティ因子、クラッシュ中立化とpeso problem
+- delta-hedged option return、gamma・vegaスケーリング、取引コストと証拠金制約
 - 決算expected move、既知時刻ジャンプ、イベント分散リスク・プレミアム
 - 決算前後のIV crush、カレンダースプレッド、確率的ボラティリティとの識別
 - 0DTE・短期オプションの注文フローとIV期間構造
