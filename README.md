@@ -46,6 +46,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | CTA・トレンドフォロー | [The Risk in Hedge Fund Strategies: Theory and Evidence from Trend Followers](notes/03_Finance/03_Systematic_Trading/2001_Fung_Hsieh_RiskTrendFollowers.md) | William Fung, David A. Hsieh | 2001 | トレンドフォロー収益をルックバック・ストラドル型の非線形ペイオフとして捉え、通常の資産指数よりPTFSがCTA収益をよく説明することを示す |
+| CTA・時系列モメンタム | [Time Series Momentum](notes/03_Finance/03_Systematic_Trading/2012_Moskowitz_TimeSeriesMomentum.md) | Tobias J. Moskowitz, Yao Hua Ooi, Lasse Heje Pedersen | 2012 | 58本の先物・フォワードで過去12か月リターンが次月リターンを正に予測し、CTA/managed futuresのトレンドフォロー収益源を横断資産で示す |
 | CTA・市場マイクロストラクチャー | [Is Trend Still Your Friend?: A Microstructural Account of the Demise of Short-Term Trend-Following](notes/03_Finance/03_Systematic_Trading/2026_Kurth_DemiseShortTermTrendFollowing.md) | Jutta G. Kurth, Zoltan Eisler, Adam Rej, Jean-Philippe Bouchaud | 2026 | 2008年以降の短期トレンド崩壊がsmall-tick先物に集中し、HFT流動性の引き上げが自己実現的なprice-impact loopを断ったというマイクロストラクチャー仮説を示す |
 
 ### デリバティブ・オプション・ボラティリティ
