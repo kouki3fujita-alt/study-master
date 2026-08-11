@@ -46,6 +46,8 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | CTA・トレンドフォロー | [The Risk in Hedge Fund Strategies: Theory and Evidence from Trend Followers](notes/03_Finance/03_Systematic_Trading/2001_Fung_Hsieh_RiskTrendFollowers.md) | William Fung, David A. Hsieh | 2001 | トレンドフォロー収益をルックバック・ストラドル型の非線形ペイオフとして捉え、通常の資産指数よりPTFSがCTA収益をよく説明することを示す |
+| 農産物先物・COT | [The Adequacy of Speculation in Agricultural Futures Markets: Too Much of a Good Thing?](notes/03_Finance/03_Systematic_Trading/2008_Sanders_AdequacySpeculationAgriculturalFutures.md) | Dwight R. Sanders, Scott H. Irwin, Robert P. Merrin | 2008（2010年公刊版あり） | COT/CIT/BPデータで指数ファンド拡大後もWorkingのspeculative indexは概ね歴史的範囲内にあり、投機抑制はヘッジ流動性の便益と比較すべきだと示す |
+| COT・先物ポジショニング（実務書） | [The Commitments of Traders Bible: How to Profit from Insider Market Intelligence](notes/03_Finance/03_Systematic_Trading/2008_Briese_CommitmentsTradersBible.md) | Stephen Briese | 2008 | CFTCのCOTレポートをcommercial hedgers、large speculators、small tradersの実ポジション情報として読み、COT IndexやMovement Indexで市場転換を探す実務フレームを整理する |
 | CTA・時系列モメンタム | [Time Series Momentum](notes/03_Finance/03_Systematic_Trading/2012_Moskowitz_TimeSeriesMomentum.md) | Tobias J. Moskowitz, Yao Hua Ooi, Lasse Heje Pedersen | 2012 | 58本の先物・フォワードで過去12か月リターンが次月リターンを正に予測し、CTA/managed futuresのトレンドフォロー収益源を横断資産で示す |
 | CTA・市場マイクロストラクチャー | [Is Trend Still Your Friend?: A Microstructural Account of the Demise of Short-Term Trend-Following](notes/03_Finance/03_Systematic_Trading/2026_Kurth_DemiseShortTermTrendFollowing.md) | Jutta G. Kurth, Zoltan Eisler, Adam Rej, Jean-Philippe Bouchaud | 2026 | 2008年以降の短期トレンド崩壊がsmall-tick先物に集中し、HFT流動性の引き上げが自己実現的なprice-impact loopを断ったというマイクロストラクチャー仮説を示す |
 
