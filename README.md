@@ -56,6 +56,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
+| 株式ボラティリティ・非対称性 | [Asymmetric Volatility and Risk in Equity Markets](notes/03_Finance/01_Derivatives/1997_Bekaert_AsymmetricVolatilityRiskEquityMarkets.md) | Geert Bekaert, Guojun Wu | 1997（2000年公刊版あり） | Nikkei 225構成銘柄で負リターン後にボラティリティと共分散が非対称に上がる現象を検証し、leverage effectよりvolatility feedbackの説明力が大きいことを示す |
 | ボラティリティ予測 | [The Relation between Implied and Realized Volatility](notes/03_Finance/01_Derivatives/1998_Christensen_Prabhala_ImpliedRealizedVolatility.md) | Bent Jesper Christensen, Nagpurnanand R. Prabhala | 1998 | 非重複月次標本と測定誤差補正により、OEX ATM IVが過去RVを上回り、その情報を包含することを示す |
 | オプション期待収益・ボラティリティリスク | [Expected Option Returns](notes/03_Finance/01_Derivatives/2001_Coval_ExpectedOptionReturns.md) | Joshua D. Coval, Tyler Shumway | 2001 | コールとプットの方向リスクを相殺したゼロベータ・ストラドルでも平均約3%の週次損失が残り、システマティックなボラティリティリスクが価格付けされている可能性を示す |
 | 相関リスク・デリバティブ | [Option-Implied Correlations and the Price of Correlation Risk](notes/03_Finance/01_Derivatives/2005_Driessen_OptionImpliedCorrelations.md) | Joost Driessen, Pascal Maenhout, Grigory Vilkov | 2005（2009年公刊版あり） | 指数と構成銘柄のモデルフリー・インプライド分散から平均相関を逆算し、相関上昇保険の価格とdispersion tradingの源泉を示す |
@@ -87,6 +88,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 決算イベント・オプション | [Earnings Announcements and Equity Options](notes/03_Finance/01_Derivatives/2004_Dubinsky_Johannes_EarningsAnnouncementsEquityOptions.md) | Andrew Dubinsky, Michael Johannes | 2004/2006 | 既知時刻の決算ジャンプをIV期間構造から抽出し、イベントジャンプを入れると短期オプションの価格誤差が大幅に縮小することを示す |
 | 空売りデータ・市場構造（当局資料） | [Understanding Short Sale Volume Data on FINRA’s Website](notes/03_Finance/03_Systematic_Trading/2019_FINRA_UnderstandingShortSaleVolume.md) | FINRA | 2019 | FINRAのshort sale volumeは公開取引フローであり、short interestというポジション残高ではなく、取引所データとの統合と報告構造の理解が不可欠だと説明する |
 | 市場構造・規制（当局レポート） | [Staff Report on Equity and Options Market Structure Conditions in Early 2021](notes/03_Finance/01_Derivatives/2021_SEC_EquityOptionsMarketStructureEarly2021.md) | SEC Staff | 2021 | 2021年1月のGameStop急騰をCAT等の当局データで検証し、ショートスクイーズが主因ではなくガンマスクイーズの証拠もないこと、取引制限がNSCC証拠金への反応であったことを示す |
+| 0DTE・顧客指値注文（当局WP） | [Hope at a Reasonable Price: Customer Use of Limit Orders in the 0DTE Market](notes/03_Finance/01_Derivatives/2025_Fu_HopeReasonablePrice0DTE.md) | Lei Fu, Su Li, David K. Musto, Neil D. Pearson | 2025 | SPXW 0DTE市場で顧客がNMLOを使ってBBO上・BBO内で流動性供給し、広いquoted spreadから見えるほど高コストではないことをOPRAデータ補正後に示す |
 | 0DTE・ディーラーガンマ | [0DTE Index Options and Market Volatility: How Large is Their Impact?](notes/03_Finance/01_Derivatives/2025_Amaya_0DTEIndexOptionsMarketVolatility.md) | Diego Amaya, Pedro A. Garcia-Ares, Neil D. Pearson, Aurelio Vasquez | 2025 | Cboe全取引記録からOMM集計ガンマを復元し、平均的なデルタヘッジは変動を抑える一方、負のガンマ局面では日次・30分ボラティリティを増幅するが最大効果も市場全体では異常に大きくないと示す |
 | 個人投資家・オプション需給 | [Retail Option Traders and the Implied Volatility Surface](notes/03_Finance/01_Derivatives/2026_Eaton_RetailOptionTradersIVSurface.md) | Gregory W. Eaton, T. Clifton Green, Brian S. Roseman, Yanbin Wu | 2026 | 証券会社の障害を外生ショックとして、個人の短期・OTM・コール需要がIVサーフェスを歪めることを示す |
 
