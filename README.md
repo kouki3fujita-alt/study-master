@@ -46,6 +46,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | CTA・トレンドフォロー | [The Risk in Hedge Fund Strategies: Theory and Evidence from Trend Followers](notes/03_Finance/03_Systematic_Trading/2001_Fung_Hsieh_RiskTrendFollowers.md) | William Fung, David A. Hsieh | 2001 | トレンドフォロー収益をルックバック・ストラドル型の非線形ペイオフとして捉え、通常の資産指数よりPTFSがCTA収益をよく説明することを示す |
+| CTA・市場マイクロストラクチャー | [Is Trend Still Your Friend?: A Microstructural Account of the Demise of Short-Term Trend-Following](notes/03_Finance/03_Systematic_Trading/2026_Kurth_DemiseShortTermTrendFollowing.md) | Jutta G. Kurth, Zoltan Eisler, Adam Rej, Jean-Philippe Bouchaud | 2026 | 2008年以降の短期トレンド崩壊がsmall-tick先物に集中し、HFT流動性の引き上げが自己実現的なprice-impact loopを断ったというマイクロストラクチャー仮説を示す |
 
 ### デリバティブ・オプション・ボラティリティ
 
@@ -132,6 +133,10 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - CTA・トレンドフォローの非線形ベータ、正の歪度、危機時分散
 - ルックバック・ストラドル、時系列モメンタム、ブレイクアウト戦略の対応関係
 - PTFSによる戦略ベースのファクター分析とファンド別ベンチマーク
+- 短期トレンド収益の2008–2009年構造変化、signal horizon別alpha decay、CTA capacity
+- volatility-normalised tick size、板の疎密、HFTによるdepth withdrawal
+- trend signal・aggressive order flow・price impactの自己実現的フィードバック
+- market orderのslippageとlimit orderのmissed-opportunity cost・fill biasの比較
 - ボラティリティ・ターゲティング、leverage effect、暗黙の短期モメンタム
 - 逆ボラティリティ・サイジングがtail risk、vol of vol、最大ドローダウンへ与える効果
 - CTA・risk parityにおける方向シグナルとリスク・スケーリングの収益分解
