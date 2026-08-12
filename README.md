@@ -1,6 +1,6 @@
 # study-master
 
-研究論文のPDFと、論文を再読・実装・発展研究に使うための議論ノートを管理するリポジトリです。
+研究論文のPDF、実務記事の参照情報、再読・実装・発展研究に使うための議論ノートを管理するリポジトリです。
 
 ## ディレクトリ構成
 
@@ -19,19 +19,25 @@ papers/                         # 手元で管理する論文PDF
 │  └─ 03_Systematic_Trading/
 └─ 99_Others/
 
+articles/                       # Web記事・実務解説の参照情報
+└─ 03_Finance/
+   └─ 01_Market_Microstructure/
+
 notes/                          # 議論・要約・批判的検討
 └─ 03_Finance/
    ├─ 01_Derivatives/
-   └─ 03_Systematic_Trading/
+   ├─ 03_Systematic_Trading/
+   └─ 04_Practitioner_Articles/
 ```
 
 PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `2009_Carr_VarianceRiskPremiums.pdf`。
+記事参照ファイルの命名規則は `YYYY_Source_ShortTitle.md` とし、本文全文は複製せず、原文URLと分析ノートへのリンクを保存します。
 
 ## ノートの収録項目
 
 各ノートには、必ず次の項目を収録します。
 
-- 論文名、著者、掲載誌、原論文リンク
+- 論文名・記事名、著者・発行者、掲載誌・媒体、原文リンク
 - 問題意識と結論の短い要約
 - 中核となるアイデアと数式
 - データと実証設計
@@ -94,6 +100,14 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 0DTE・市場構造（取引所レポート） | [0DTEs Decoded: Positioning, Trends, and Market Impact](notes/03_Finance/01_Derivatives/2025_Cboe_0DTEsDecodedPositioningTrendsMarketImpact.md) | Cboe Derivatives Market Intelligence / Mandy Xu | 2025 | SPX 0DTEの出来高成長、リテール/機関推定比率、日中取引パターン、ストレス時の満期別シフト、net gammaに基づく市場影響評価を整理する |
 | ガンマスクイーズ・理論モデル | [Beta-Dependent Gamma Feedback and Endogenous Volatility Amplification in Option Markets](notes/03_Finance/01_Derivatives/2025_Dai_BetaDependentGammaFeedback.md) | Haoying Dai | 2025 | デルタヘッジ由来のガンマフィードバックをbeta正規化ショックと結び付け、低beta・高ガンマ露出銘柄で不安定化条件に近づきやすいことを理論モデルで示す |
 | 個人投資家・オプション需給 | [Retail Option Traders and the Implied Volatility Surface](notes/03_Finance/01_Derivatives/2026_Eaton_RetailOptionTradersIVSurface.md) | Gregory W. Eaton, T. Clifton Green, Brian S. Roseman, Yanbin Wu | 2026 | 証券会社の障害を外生ショックとして、個人の短期・OTM・コール需要がIVサーフェスを歪めることを示す |
+
+## 記事・実務解説一覧
+
+### 市場構造・流動性・取引所レポート
+
+| 分野 | 記事 | 発行者 | 掲載年 | 一言でいうと |
+|---|---|---|---:|---|
+| 先物流動性・市場インパクト | [Reassessing Liquidity: Beyond Order Book Depth](notes/03_Finance/04_Practitioner_Articles/2025_CME_ReassessingLiquidityBeyondOrderBookDepth.md) | CME Group | 2025 | 2025年4月の関税ショック局面で、E-mini S&P 500 futuresの流動性をorder book depthだけでなく、出来高、fill quality、price dispersion、square-root impact modelで評価する |
 
 ## この論文から伸びる研究テーマ
 
