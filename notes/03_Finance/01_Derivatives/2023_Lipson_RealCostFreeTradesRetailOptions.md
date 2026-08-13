@@ -10,7 +10,7 @@
 - **執筆日**: 2023年3月9日
 - **SSRN**: [Abstract 4383463](https://ssrn.com/abstract=4383463)
 - **DOI**: [10.2139/ssrn.4383463](https://doi.org/10.2139/ssrn.4383463)
-- **リポジトリ内PDF**: 未保存。ユーザー指定のSSRN Delivery URL、およびCloudflareパラメータなしの標準Delivery URLはいずれも403で取得できなかった。
+- **リポジトリ内PDF**: [2023_Lipson_RealCostFreeTradesRetailOptions.pdf](../../../papers/03_Finance/01_Derivatives/2023_Lipson_RealCostFreeTradesRetailOptions.pdf)
 - **キーワード**: retail option trading, Robinhood, commission-free options, volatility, dealer hedging, gamma, price discovery, liquidity
 
 ## 一言でいうと
@@ -71,7 +71,7 @@ SSRNおよび関連カタログの要約では、効果は一時的な導入直�
 ## 5. 注意点と限界
 
 - **SSRN版の改訂**: SSRNでは2026年2月11日改訂版が表示されている。過去版と結果・ページ数が異なる可能性がある。
-- **PDF未保存**: SSRN Delivery PDFは403で取得できなかったため、ノートはSSRNページの公開メタデータと要旨に基づく。
+- **PDF版**: 保存PDFは2026年2月11日改訂稿である。SSRNのブラウザ経由PDFを手元ファイルから保管した。
 - **Robinhoodショックの外部妥当性**: 無料化の影響は、当時のRobinhoodユーザー層、オプション市場構造、PFOF環境に依存する。
 - **ディーラーヘッジの直接観測**: メカニズムは複数の証拠から支持されるが、すべてのヘッジ売買を完全に直接観測できるわけではない。
 - **リテールフローの情報性**: 非情報的とされる平均的傾向は、銘柄・時期・イベントによって変わり得る。

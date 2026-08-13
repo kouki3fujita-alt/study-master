@@ -9,7 +9,8 @@
 - **DOI**: [10.1016/j.jfineco.2004.08.005](https://doi.org/10.1016/j.jfineco.2004.08.005)
 - **ScienceDirect**: [S0304405X05000577](https://www.sciencedirect.com/science/article/pii/S0304405X05000577)
 - **SSRN**: [Abstract 519044](https://ssrn.com/abstract=519044), SSRN DOI [10.2139/ssrn.519044](https://doi.org/10.2139/ssrn.519044)
-- **リポジトリ内PDF**: 未保存。ユーザー指定のScienceDirect署名付きPDF、ScienceDirect恒久PDFリンク、SSRN Delivery PDFはいずれもアクセス制限により取得できなかった。
+- **リポジトリ内PDF**: [2005_Ni_StockPriceClusteringOptionExpiration.pdf](../../../papers/03_Finance/01_Derivatives/2005_Ni_StockPriceClusteringOptionExpiration.pdf)
+- **手元PDF上の注意**: 保存PDFは2004年8月27日のSSRN稿であり、公刊版は *Journal of Financial Economics* 2005年版である。
 - **キーワード**: option expiration, stock price clustering, pinning, strike price, delta hedging, manipulation
 
 ## 一言でいうと

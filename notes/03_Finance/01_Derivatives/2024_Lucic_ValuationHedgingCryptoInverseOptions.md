@@ -13,7 +13,7 @@
 - **SSRN**: [Abstract 4606748](https://ssrn.com/abstract=4606748)
 - **SSRN DOI**: [10.2139/ssrn.4606748](https://doi.org/10.2139/ssrn.4606748)
 - **出版社ページ**: [Taylor & Francis Online](https://www.tandfonline.com/doi/abs/10.1080/14697688.2024.2364804)
-- **リポジトリ内PDF**: 未保存。ユーザー指定のSSRNページからのDelivery PDF、および出版社PDFはいずれも403で取得できなかった。
+- **リポジトリ内PDF**: [2024_Lucic_ValuationHedgingCryptoInverseOptions.pdf](../../../papers/03_Finance/01_Derivatives/2024_Lucic_ValuationHedgingCryptoInverseOptions.pdf)
 - **キーワード**: inverse options, Deribit, cryptocurrency options, perpetual futures, change of numeraire, delta hedging, volatility risk premium
 
 ## 一言でいうと
@@ -68,7 +68,7 @@ Deribitオプションに負のボラティリティ・リスクプレミアム�
 
 ## 6. 注意点と限界
 
-- **PDF未保存**: SSRN Delivery PDFおよび出版社PDFはいずれも403で取得できなかったため、ノートは公開メタデータと要旨に基づく。
+- **PDF版**: 保存PDFはSSRNの2026年2月5日改訂稿であり、公刊版の情報も併記している。
 - **改訂差**: SSRN版は2026年2月5日改訂、公刊版は2024年版であり、データ期間や表現に差がある可能性がある。
 - **単一取引所依存**: Deribitは暗号資産オプションの中心的取引所だが、取引所固有の証拠金、清算、流動性、参加者構成が結果に影響する。
 - **ヘッジコスト**: perpetual futuresを使うヘッジでは、funding、スリッページ、清算リスク、取引所リスクが重要になる。
