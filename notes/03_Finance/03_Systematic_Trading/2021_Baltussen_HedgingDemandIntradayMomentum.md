@@ -5,8 +5,13 @@
 - **論文**: Guido Baltussen, Zhi Da, Sten Lammers, Martin Martens, “Hedging Demand and Market Intraday Momentum”
 - **掲載誌**: *Journal of Financial Economics*, Vol. 142, No. 1, pp. 377-403, 2021
 - **DOI**: [10.1016/j.jfineco.2021.04.029](https://doi.org/10.1016/j.jfineco.2021.04.029)
+- **SSRN**: [3760365](https://ssrn.com/abstract=3760365)
 - **著者PDF**: [academicweb.nd.edu/~zda/intramom.pdf](https://academicweb.nd.edu/~zda/intramom.pdf)
+- **リポジトリ内PDF（公刊版）**: [2021_Baltussen_HedgingDemandIntradayMomentum.pdf](../../../papers/03_Finance/03_Systematic_Trading/2021_Baltussen_HedgingDemandIntradayMomentum.pdf)
+- **リポジトリ内PDF（2020年8月26日SSRN稿）**: [2020_Baltussen_HedgingDemandIntradayMomentum_SSRN3760365.pdf](../../../papers/03_Finance/03_Systematic_Trading/2020_Baltussen_HedgingDemandIntradayMomentum_SSRN3760365.pdf)
 - **キーワード**: intraday momentum, futures, hedging demand, short gamma, leveraged ETF, return predictability
+
+> **版の注意**: 研究内容の引用には原則として2021年JFE公刊版を使う。SSRN稿は60ページの査読前版で、公刊版は27ページに編集されているため、表番号・ページ番号・記述の細部を混在させない。
 
 ## 1. 一言でいうと
 
