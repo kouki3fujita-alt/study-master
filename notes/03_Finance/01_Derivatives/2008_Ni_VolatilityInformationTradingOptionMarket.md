@@ -10,8 +10,9 @@
 - **SSRN**: [Abstract 809107](https://ssrn.com/abstract=809107), SSRN DOI [10.2139/ssrn.809107](https://doi.org/10.2139/ssrn.809107)
 - **出版社ページ**: [Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2008.01352.x)
 - **AFA誌面ページ**: [Journal of Finance Volume 63 Issue 3](https://afajof.org/issue/volume-63-issue-3/)
-- **リポジトリ内PDF**: [2008_Ni_VolatilityInformationTradingOptionMarket.pdf](../../../papers/03_Finance/01_Derivatives/2008_Ni_VolatilityInformationTradingOptionMarket.pdf)
-- **手元PDF上の注意**: 保存PDFは2005年10月18日のSSRN稿であり、公刊版は *The Journal of Finance* 2008年版である。
+- **リポジトリ内PDF（2005年SSRN稿）**: [2008_Ni_VolatilityInformationTradingOptionMarket.pdf](../../../papers/03_Finance/01_Derivatives/2008_Ni_VolatilityInformationTradingOptionMarket.pdf)
+- **リポジトリ内PDF（2008年公刊版）**: [2008_Ni_VolatilityInformationTradingOptionMarket_Published.pdf](../../../papers/03_Finance/01_Derivatives/2008_Ni_VolatilityInformationTradingOptionMarket_Published.pdf)
+- **版の注意**: SSRN稿と *The Journal of Finance* 2008年公刊版を併置している。表番号、ページ番号、推定値を引用するときは版を混在させない。
 - **キーワード**: option order flow, volatility demand, informed trading, vega-weighted demand, Kyle's lambda, earnings announcements
 
 ## 一言でいうと
