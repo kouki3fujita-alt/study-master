@@ -97,6 +97,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | 市場マイクロストラクチャー | [Futures Markets, Regulation and Volatility](notes/03_Finance/01_Derivatives/1994_Bacha_FuturesMarketsRegulationVolatility.md) | Obiyathulla Bacha, Anne Fremault Vila | 1994 | 日経225先物の複数市場への上場を利用し、先物導入・規制・満期日が現物ボラティリティへ与える影響を検証する |
+| オプション満期・ピニング理論 | [A Market-Induced Mechanism for Stock Pinning](notes/03_Finance/01_Derivatives/2003_Avellaneda_MarketInducedStockPinning.md) | Marco Avellaneda, Michael D. Lipkin | 2003 | 特定strikeの巨大OIとマーケットメーカーの集団的デルタヘッジ価格インパクトから、満期時に株価がstrikeへ正の確率で集積する特異ドリフトモデルを導く |
 | 決算イベント・オプション | [Earnings Announcements and Equity Options](notes/03_Finance/01_Derivatives/2004_Dubinsky_Johannes_EarningsAnnouncementsEquityOptions.md) | Andrew Dubinsky, Michael Johannes | 2004/2006 | 既知時刻の決算ジャンプをIV期間構造から抽出し、イベントジャンプを入れると短期オプションの価格誤差が大幅に縮小することを示す |
 | 満期日・株価ピニング | [Stock Price Clustering on Option Expiration Dates](notes/03_Finance/01_Derivatives/2005_Ni_StockPriceClusteringOptionExpiration.md) | Sophie Xiaoyan Ni, Neil D. Pearson, Allen M. Poteshman | 2005 | 個別株オプション満期日に原資産終値が権利行使価格付近へ集まりやすく、デルタヘッジ再調整とオプション・ライターによる操作がその一因であることを示す |
 | オプション出来高・方向情報 | [The Information in Option Volume for Future Stock Prices](notes/03_Finance/01_Derivatives/2006_Pan_InformationOptionVolumeFutureStockPrices.md) | Jun Pan, Allen M. Poteshman | 2006 | 買い手が新規建てしたput-call volume ratioが翌日・翌週の株式リターンを予測し、その源泉が公開出来高ではなく情報投資家の非公開取引分類にあることを示す |
