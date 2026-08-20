@@ -68,20 +68,26 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | ボラティリティ予測 | [The Relation between Implied and Realized Volatility](notes/03_Finance/01_Derivatives/1998_Christensen_Prabhala_ImpliedRealizedVolatility.md) | Bent Jesper Christensen, Nagpurnanand R. Prabhala | 1998 | 非重複月次標本と測定誤差補正により、OEX ATM IVが過去RVを上回り、その情報を包含することを示す |
 | 取引コスト・アメリカンコール | [Option Pricing and Replication with Transaction Costs and Dividends](notes/03_Finance/01_Derivatives/2000_Perrakis_OptionPricingReplicationTransactionCostsDividends.md) | Stylianos Perrakis, Jean Lefoll | 2000 | 比例取引コストと既知配当の下ではアメリカンコールの単一価格・単一行使境界がbid/askのsuper-replicationと選好依存の行使区間へ置き換わることを示す |
 | オプション期待収益・ボラティリティリスク | [Expected Option Returns](notes/03_Finance/01_Derivatives/2001_Coval_ExpectedOptionReturns.md) | Joshua D. Coval, Tyler Shumway | 2001 | コールとプットの方向リスクを相殺したゼロベータ・ストラドルでも平均約3%の週次損失が残り、システマティックなボラティリティリスクが価格付けされている可能性を示す |
+| IVサーフェス・因子分解 | [Dynamics of Implied Volatility Surfaces](notes/03_Finance/01_Derivatives/2002_Cont_DynamicsImpliedVolatilitySurfaces.md) | Rama Cont, Jose da Fonseca | 2002 | SPX/FTSEオプションのIVサーフェス変化をKarhunen-Loeve分解し、level・slope・curvatureに近い少数因子でvega riskを捉える |
 | デルタヘッジ・VRP | [Delta-Hedged Gains and the Negative Market Volatility Risk Premium](notes/03_Finance/01_Derivatives/2003_Bakshi_DeltaHedgedGainsNegativeVolatilityRiskPremium.md) | Gurdip Bakshi, Nikunj Kapadia | 2003 | S&P 500指数optionのlong delta-hedged gainが系統的に負で、ATMで最も大きいことから、負の市場ボラティリティ・リスクプレミアムを支持する |
+| オプション需給・IV smile | [Does Net Buying Pressure Affect the Shape of Implied Volatility Functions?](notes/03_Finance/01_Derivatives/2004_Bollen_NetBuyingPressureImpliedVolatilityFunctions.md) | Nicolas P. B. Bollen, Robert E. Whaley | 2004 | S&P 500ではput需要、個別株ではcall需要がIVFの形状を動かし、limits-to-arbitrageと在庫制約がsmile形成に効くことを示す |
 | 相関リスク・デリバティブ | [Option-Implied Correlations and the Price of Correlation Risk](notes/03_Finance/01_Derivatives/2005_Driessen_OptionImpliedCorrelations.md) | Joost Driessen, Pascal Maenhout, Grigory Vilkov | 2005（2009年公刊版あり） | 指数と構成銘柄のモデルフリー・インプライド分散から平均相関を逆算し、相関上昇保険の価格とdispersion tradingの源泉を示す |
 | オプション需給・仲介者制約 | [Demand-Based Option Pricing](notes/03_Finance/01_Derivatives/2005_Garleanu_DemandBasedOptionPricing.md) | Nicolae Garleanu, Lasse Heje Pedersen, Allen M. Poteshman | 2005（2009年公刊版あり） | ディーラーがオプションを完全ヘッジできない場合、エンドユーザー需要がヘッジ不能部分の分散・共分散に応じて価格とsmirkへ反映されることを理論・実証で示す |
 | 株式リターン予測・分散リスク | [Expected Stock Returns and Variance Risk Premia](notes/03_Finance/01_Derivatives/2007_Bollerslev_ExpectedStockReturnsVarianceRiskPremia.md) | Tim Bollerslev, Hao Zhou | 2007（2009年公刊版あり） | model-free implied varianceと高頻度realized varianceの差が四半期S&P 500超過リターンを強く予測し、市場全体のrisk aversion proxyとして機能することを示す |
+| KOSPI200・注文フロー情報 | [The Information Content of Net Buying Pressure](notes/03_Finance/01_Derivatives/2008_Kang_InformationContentNetBuyingPressure.md) | Jangkoo Kang, Hyoung-Jin Park | 2008（2005年SSRN稿） | KOSPI200オプションのcall/put NBPが原資産方向情報を含み、limits-to-arbitrageよりdirection-learning仮説に沿うことを示す |
 | オプション注文フロー・情報取引 | [Volatility Information Trading in the Option Market](notes/03_Finance/01_Derivatives/2008_Ni_VolatilityInformationTradingOptionMarket.md) | Sophie X. Ni, Jun Pan, Allen M. Poteshman | 2008（2005年SSRN稿） | 非マーケットメーカーのvega加重ネット・ボラティリティ需要が将来実現ボラティリティを予測し、決算前の情報非対称性が高い局面では価格インパクトも大きくなることを示す |
 | 指数オプション収益 | [Understanding Index Option Returns](notes/03_Finance/01_Derivatives/2009_Broadie_UnderstandingIndexOptionReturns.md) | Mark Broadie, Mikhail Chernov, Michael Johannes | 2009 | OTMプット売りの高収益は標準的オプション価格モデルの有限標本分布と比べると必ずしもmispricingではなく、ATMストラドルの方が難しいパズルだと示す |
 | 個別株オプション収益・ボラティリティ | [Cross-Section of Option Returns and Volatility](notes/03_Finance/01_Derivatives/2009_Goyal_CrossSectionOptionReturnsVolatility.md) | Amit Goyal, Alessio Saretto | 2009（2008年稿） | 過去12か月HVとATM IVの差で個別株を並べ、HV−IVが大きい銘柄のオプション買いと小さい銘柄の売りが、取引コストと標準的リスク調整後も大きなクロスセクション収益を生むことを示す |
 | ボラティリティ・デリバティブ | [Variance Risk Premiums](notes/03_Finance/01_Derivatives/2009_Carr_VarianceRiskPremiums.md) | Peter Carr, Liuren Wu | 2009 | オプションから合成した分散スワップ・レートと実現分散を比較し、市場分散の保険料を直接測定する |
 | 日経225オプション・実現ボラティリティ | [Pricing Nikkei 225 Options Using Realized Volatility](notes/03_Finance/01_Derivatives/2011_Ubukata_PricingNikkei225OptionsRealizedVolatility.md) | Masato Ubukata, Toshiaki Watanabe | 2011（2014年公刊版あり） | 高頻度データ由来のrealized volatilityをARFIMAX/HARXでモデル化し、日経225プット価格付けではHansen-Lunde型の非取引時間調整が効くことを示す |
+| ETF・指数オプションIV | [The Implied Volatility of ETF and Index Options](notes/03_Finance/01_Derivatives/2011_Ivanov_ImpliedVolatilityETFIndexOptions.md) | Stoyu I. Ivanov, Jeff Whitworth, Yi Zhang | 2011 | ETFと追跡指数の実現リターン分布が近いにもかかわらず、ETFオプションのIV smileがより強く、特にdeep ITMで差が出ることを示す |
 | テールリスク・リターン予測 | [Tail Risk Premia and Return Predictability](notes/03_Finance/01_Derivatives/2015_Bollerslev_TailRiskPremiaReturnPredictability.md) | Tim Bollerslev, Viktor Todorov, Lai Xu | 2015 | 分散リスク・プレミアムの予測力の多くが、OTMプットに表れる左側ジャンプテール補償、すなわちmarket fearsに由来することを示す |
+| オプション注文フロー・期待収益 | [Order Flow and Expected Option Returns](notes/03_Finance/01_Derivatives/2016_Muravyev_OrderFlowExpectedOptionReturns.md) | Dmitriy Muravyev | 2016 | オプション注文不均衡の価格インパクトを在庫リスクと情報成分に分け、過去order flowが将来オプション収益を強く予測することを示す |
 | 個別株オプション・情報取引 | [What Does the Individual Option Volatility Smirk Tell Us About Future Equity Returns?](notes/03_Finance/01_Derivatives/2010_Xing_OptionVolatilitySmirkEquityReturns.md) | Yuhang Xing, Xiaoyan Zhang, Rui Zhao | 2010 | OTMプットIVとATMコールIVの差が大きい銘柄ほど将来リターンと決算サプライズが悪く、オプション市場の悪材料が現物市場に先行することを示す |
 | 商品・分散リスク | [Variance Risk in Commodity Markets](notes/03_Finance/01_Derivatives/2017_Prokopczuk_VarianceRiskCommodityMarkets.md) | Marcel Prokopczuk, Lazaros Symeonidis, Chardin Wese Simen | 2017（2014年稿） | 21商品市場の合成分散スワップを調べ、商品分散リスクが先物価格リスクとは別のリスクであることを示す |
 | 暗号資産・分散リスク | [The Bitcoin VIX and Its Variance Risk Premium](notes/03_Finance/01_Derivatives/2021_Alexander_Imeraj_BitcoinVIX.md) | Carol Alexander, Arben Imeraj | 2021 | DeribitオプションからBitcoin VIXの期間構造とVRPを構築し、ジャンプ誤差と危機時の分散投資便益を検証する |
 | 暗号資産オプション・流動性 | [Illiquid Bitcoin Options](notes/03_Finance/01_Derivatives/2022_Guo_IlliquidBitcoinOptions.md) | Yang Guo, Jiasun Li, Mei Luo, Yintian Wang | 2022 | LedgerXの規制下Bitcoinオプションは株式オプションより約10倍非流動的で、投資家がネット売り手のため非流動性と売り注文不均衡が後続デルタヘッジ収益のプレミアムを強めることを示す |
+| KOSPI200・投資家別NBP | [Investors' Net Buying Pressure and Implied Volatility Dynamics](notes/03_Finance/01_Derivatives/2022_Ryu_InvestorsNetBuyingPressureImpliedVolatilityDynamics.md) | Doojin Ryu, Robert I. Webb, Heejin Yang, Jinyoung Yu | 2022 | KOSPI200の投資家タイプ別NBPを先物ヘッジ需要・日中季節性・制度変更と併せて検証し、外国人投資家のdirection-learningを示す |
 | 暗号資産オプション・情報取引 | [Net Buying Pressure and the Information in Bitcoin Option Trades](notes/03_Finance/01_Derivatives/2023_Alexander_NetBuyingPressureBitcoinOptions.md) | Carol Alexander, Jun Deng, Jianfen Feng, Huning Wan | 2023（2022年arXiv稿） | Deribitのtickデータからnet buying pressureを分解し、ATMは主にボラティリティ情報、OTMはボラティリティと方向情報の両方を反映する一方、在庫制約による一時的IV反転も強いことを示す |
 | 社債・分散リスク | [Synthetic Options and Implied Volatility for the Corporate Bond Market](notes/03_Finance/01_Derivatives/2023_Chen_SyntheticCorporateBondOptions.md) | Steven Shu-Hsiu Chen, Hitesh Doshi, Sang Byung Seo | 2023 | CDXスワップションから社債指数オプションとCBVIXを合成し、社債VRPを測定する |
 | 暗号資産・インバースオプション | [Valuation and Hedging of Cryptocurrency Inverse Options](notes/03_Finance/01_Derivatives/2024_Lucic_ValuationHedgingCryptoInverseOptions.md) | Vladimir Lucic, Artur Sepp | 2024 | Deribit等で使われるコイン建てinverse optionをフォワード・ニュメレール下のvanilla optionとして整理し、USD/Coin会計とデルタヘッジ戦略のリスクプレミアムを検証する |
@@ -89,6 +95,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 暗号資産・ジャンプリスク | [Jump Risk Premia in the Presence of Clustered Jumps](notes/03_Finance/01_Derivatives/2025_Liu_JumpRiskPremiaClusteredJumps.md) | Francis Liu, Natalie Packham, Artur Sepp | 2025 | 正負ジャンプの群発を二変量Hawkes過程でモデル化し、BTCのジャンプ・プレミアを先物ベーシスとオプション収益へ結び付ける |
 | 個別株option・条件付き因子 | [Can Equity Option Returns Be Explained by a Factor Model? IPCA Says Yes](notes/03_Finance/01_Derivatives/2025_Goyal_EquityOptionReturnsIPCA.md) | Amit Goyal, Alessio Saretto | 2025 | 特性で時変betaを作る3因子IPCAが、個別株delta-hedged optionの46の既報long-short異常収益の大半を説明し、取引コスト後alphaは負となることを示す |
 | 0DTE・net gamma | [0DTEs: Trading, Gamma Risk and Volatility Propagation](notes/03_Finance/01_Derivatives/2025_Dim_0DTEsTradingGammaRiskVolatilityPropagation.md) | Chukwuma Dim, Bjørn Eraker, Grigory Vilkov | 2025 | SPX 0DTEの推定market maker net gammaは平均的に正で、正gammaが将来の日中ボラティリティを下げ、反転を強めることを示す |
+| VIX・サーフェス分解（公式資料） | [The VIX Index Decomposition](notes/03_Finance/01_Derivatives/2025_Cboe_VIXIndexDecomposition.md) | Cboe / Edward K. Tom | 2025 | VIX変化をsticky strike、parallel shift、put/call skew勾配、downside/upside convexity需要へ分解する実務フレームを示す |
 | VIX・指数算出方法（公式資料） | [Cboe Volatility Index Mathematics Methodology](notes/03_Finance/01_Derivatives/2026_Cboe_VolatilityIndexMathematicsMethodology.md) | Cboe | 2026 | VIX型指数をOTMオプション群から構築する分散複製式、一定満期補間、金利処理、気配値フィルターを定める公式数学仕様 |
 | 個別株option・risk portfolio | [Cross-Sectional Variation of Risk-targeting Option Portfolios](notes/03_Finance/01_Derivatives/2026_Wu_CrossSectionalRiskTargetingOptionPortfolios.md) | Liuren Wu, Yaofei Xu | 2026 | option surfaceをvega・gamma・volga・vannaの4 risk portfolioへ圧縮し、銘柄別risk priceが対応する翌月option excess returnを正に予測することを示す |
 
@@ -138,11 +145,13 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - 危機時の相関上昇、分散効果消失、ポートフォリオのストレス相関
 - VIX、variance swap、volatility swap の関係
 - VIXの離散複製、ストライク打切り、$\Delta K/K^2$ 重みと再現誤差
+- IVサーフェスのlevel・slope・curvature因子、PCA/Karhunen-Loeve分解、vega risk管理
 - 一定満期VIXにおける期間分散補間、分単位の時間計測、金利曲線補間
 - VIXの指数レベル・オプション系列レベルの気配値フィルターと高頻度価格発見
 - VIX方法書の版変更、ゼロbid・ask除外、長期系列の構造変化
 - VIXMOとVIXWEの構造変化、満期補間誤差、total varianceとannualized variance
 - VIX9D・VIX1Dの曜日効果、weekend variance、短期オプションの満期グリッド
+- VIX変化のsticky strike、parallel shift、skew gradient、downside/upside convexity分解
 - ジャンプ、左側テール、vol-of-vol の価格
 - 正負ジャンプの自己励起・交差励起、Hawkes過程、時変IVスキュー
 - BTCのジャンプ・リスクプレミア、先物ベーシス、funding、デルタヘッジP&L
@@ -150,6 +159,8 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - Bitcoin VIX、暗号資産の分散期間構造、危機時の分散投資便益
 - ショート・ボラティリティ戦略のテールリスク
 - 個人投資家のオプション需要、ディーラー在庫制約、IVサーフェスの形状
+- net buying pressure、order imbalance、market maker inventory risk、direction-learning仮説
+- ETFオプションと指数オプションのIV smile差、アメリカン型・流動性・投資家層の影響
 - 個別株volatility smirk、OTMプットの情報取引、将来株式リターンと決算サプライズ
 - インプライド・ボラティリティの実現ボラティリティ予測力、情報包含、測定誤差
 - 重複予測窓、HAC・操作変数法、1987年暴落前後の構造変化
