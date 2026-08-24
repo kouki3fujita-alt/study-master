@@ -95,6 +95,11 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 暗号資産・ジャンプリスク | [Jump Risk Premia in the Presence of Clustered Jumps](notes/03_Finance/01_Derivatives/2025_Liu_JumpRiskPremiaClusteredJumps.md) | Francis Liu, Natalie Packham, Artur Sepp | 2025 | 正負ジャンプの群発を二変量Hawkes過程でモデル化し、BTCのジャンプ・プレミアを先物ベーシスとオプション収益へ結び付ける |
 | 個別株option・条件付き因子 | [Can Equity Option Returns Be Explained by a Factor Model? IPCA Says Yes](notes/03_Finance/01_Derivatives/2025_Goyal_EquityOptionReturnsIPCA.md) | Amit Goyal, Alessio Saretto | 2025 | 特性で時変betaを作る3因子IPCAが、個別株delta-hedged optionの46の既報long-short異常収益の大半を説明し、取引コスト後alphaは負となることを示す |
 | 0DTE・net gamma | [0DTEs: Trading, Gamma Risk and Volatility Propagation](notes/03_Finance/01_Derivatives/2025_Dim_0DTEsTradingGammaRiskVolatilityPropagation.md) | Chukwuma Dim, Bjørn Eraker, Grigory Vilkov | 2025 | SPX 0DTEの推定market maker net gammaは平均的に正で、正gammaが将来の日中ボラティリティを下げ、反転を強めることを示す |
+| American call・配当落ち早期行使 | [Failure to Exercise Call Options: An Anomaly and a Trading Game](notes/03_Finance/01_Derivatives/2008_Pool_FailureExerciseCallOptions.md) | Veronika Krepely Pool, Hans R. Stoll, Robert E. Whaley | 2008 | 配当落ち直前に行使すべきdeep ITM callの半分超が未行使で、逸失配当をdividend-spread専門業者が回収する構造を示す |
+| FX・IV smile補間 | [The Vanna-Volga Method for Implied Volatilities: Tractability and Robustness](notes/03_Finance/01_Derivatives/2007_Castagna_VannaVolgaImpliedVolatilities.md) | Antonio Castagna, Fabio Mercurio | 2007 | ATM・25-delta put/callの3 quoteからvanna/volgaを合わせるhedge costでFX smileを構成する実務手法を定式化する |
+| 決算イベント・インプライド分散 | [Option Pricing of Earnings Announcement Risks](notes/03_Finance/01_Derivatives/2019_Dubinsky_OptionPricingEarningsAnnouncementRisks.md) | Andrew Dubinsky, Michael Johannes, Andreas Kaeck, Norman J. Seeger | 2019 | 決算という既知時刻jumpをIV term structureから分離し、決算日不確実性とjump-risk premiumを測る |
+| American put・早期行使リスク | [The Early Exercise Risk Premium](notes/03_Finance/01_Derivatives/2025_Aretz_EarlyExerciseRiskPremium.md) | Kevin Aretz, Adnan Gazi | 2025 | 最適早期行使を入れるとAmerican putのraw/delta-hedged収益と既存option anomalyの推定が大きく変わることを示す |
+| 0DTE・収益因子 | [The Factor Structure of 0DTE Option Returns](notes/03_Finance/01_Derivatives/2026_Dorion_FactorStructure0DTEOptionReturns.md) | Christian Dorion, Piotr Orlowski, Yuhan Song | 2026（SSRN稿） | 6因子が0DTEから15DTEの30分SPX option returnをほぼspanningする一方、0DTE残差は取引コスト後に収益化困難と示す |
 | VIX・サーフェス分解（公式資料） | [The VIX Index Decomposition](notes/03_Finance/01_Derivatives/2025_Cboe_VIXIndexDecomposition.md) | Cboe / Edward K. Tom | 2025 | VIX変化をsticky strike、parallel shift、put/call skew勾配、downside/upside convexity需要へ分解する実務フレームを示す |
 | VIX・指数算出方法（公式資料） | [Cboe Volatility Index Mathematics Methodology](notes/03_Finance/01_Derivatives/2026_Cboe_VolatilityIndexMathematicsMethodology.md) | Cboe | 2026 | VIX型指数をOTMオプション群から構築する分散複製式、一定満期補間、金利処理、気配値フィルターを定める公式数学仕様 |
 | 個別株option・risk portfolio | [Cross-Sectional Variation of Risk-targeting Option Portfolios](notes/03_Finance/01_Derivatives/2026_Wu_CrossSectionalRiskTargetingOptionPortfolios.md) | Liuren Wu, Yaofei Xu | 2026 | option surfaceをvega・gamma・volga・vannaの4 risk portfolioへ圧縮し、銘柄別risk priceが対応する翌月option excess returnを正に予測することを示す |
@@ -169,7 +174,10 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 - delta-hedged option return、gamma・vegaスケーリング、取引コストと証拠金制約
 - 決算expected move、既知時刻ジャンプ、イベント分散リスク・プレミアム
 - 決算前後のIV crush、カレンダースプレッド、確率的ボラティリティとの識別
+- FXのATM・risk reversal・butterfly quote、Vanna-Volga、SABR/SSVI smile補間とhedging P&L
+- American optionの早期行使、配当落ち、OCC割当て、synthetic European optionによる収益測定
 - 0DTE・短期オプションの注文フローとIV期間構造
+- 0DTE returnの実現モーメント因子、variance dynamics、inventory proxy、取引コスト後のalpha
 - OMM集計ガンマ、デルタヘッジ・フロー、S&P 500先物の一分実現ボラティリティ
 - 正・負のディーラーガンマが市場変動を吸収・増幅する非対称性
 - 0DTE出来高、系列別ネットポジション、ガンマスクイーズの識別
