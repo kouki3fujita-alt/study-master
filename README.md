@@ -102,6 +102,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 0DTE・収益因子 | [The Factor Structure of 0DTE Option Returns](notes/03_Finance/01_Derivatives/2026_Dorion_FactorStructure0DTEOptionReturns.md) | Christian Dorion, Piotr Orlowski, Yuhan Song | 2026（SSRN稿） | 6因子が0DTEから15DTEの30分SPX option returnをほぼspanningする一方、0DTE残差は取引コスト後に収益化困難と示す |
 | VIX・サーフェス分解（公式資料） | [The VIX Index Decomposition](notes/03_Finance/01_Derivatives/2025_Cboe_VIXIndexDecomposition.md) | Cboe / Edward K. Tom | 2025 | VIX変化をsticky strike、parallel shift、put/call skew勾配、downside/upside convexity需要へ分解する実務フレームを示す |
 | VIX・指数算出方法（公式資料） | [Cboe Volatility Index Mathematics Methodology](notes/03_Finance/01_Derivatives/2026_Cboe_VolatilityIndexMathematicsMethodology.md) | Cboe | 2026 | VIX型指数をOTMオプション群から構築する分散複製式、一定満期補間、金利処理、気配値フィルターを定める公式数学仕様 |
+| 個別株IV skew・構造リスク | [Cross-Sectional Variation of Option-Implied Volatility Skew](notes/03_Finance/01_Derivatives/2024_Tian_CrossSectionalOptionImpliedVolatilitySkew.md) | Meng Tian, Liuren Wu | 2024 | 個別株IV skewを景気感応度・デフォルトリスクと短期情報へ分け、構造的部分が横断分散を最大44%説明すると示す |
 | 個別株option・risk portfolio | [Cross-Sectional Variation of Risk-targeting Option Portfolios](notes/03_Finance/01_Derivatives/2026_Wu_CrossSectionalRiskTargetingOptionPortfolios.md) | Liuren Wu, Yaofei Xu | 2026 | option surfaceをvega・gamma・volga・vannaの4 risk portfolioへ圧縮し、銘柄別risk priceが対応する翌月option excess returnを正に予測することを示す |
 
 ### ポートフォリオ理論・ファクター・リスクモデル
@@ -109,6 +110,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 論文 | 著者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | 金融計量・相関モデル | [Ten Things You Should Know about the Dynamic Conditional Correlation Representation](notes/03_Finance/01_Derivatives/2013_Caporin_TenThingsDCC.md) | Massimiliano Caporin, Michael McAleer | 2013 | DCCを厳密なモデルではなくフィルターとして捉えるべき理由を10の理論的・実証的注意点から整理する |
+| アクティブ運用・benchmark | [How Active Is Your Fund Manager? A New Measure That Predicts Performance](notes/03_Finance/03_Systematic_Trading/2009_Cremers_ActiveSharePredictsPerformance.md) | K. J. Martijn Cremers, Antti Petajisto | 2009 | Active Shareで保有のベンチマーク乖離を測り、高AS投信の費用後outperformanceと低AS closet indexerの費用負けを示す |
 | ボラティリティ・ターゲティング | [The Impact of Volatility Targeting](notes/03_Finance/03_Systematic_Trading/2018_Harvey_ImpactVolatilityTargeting.md) | Campbell R. Harvey, Edward Hoyle, Russell Korgaonkar, Sandy Rattray, Matthew Sargaison, Otto Van Hemert | 2018 | 60超の資産を検証し、逆ボラティリティ調整は株式・クレジットのSharpe ratioを改善する一方、より普遍的な効果はテールとvol of volの抑制だと示す |
 
 ### イベントドリブン・市場マイクロストラクチャー・注文フロー
@@ -140,6 +142,7 @@ PDFの命名規則は `YYYY_FirstAuthor_ShortTitle.pdf` とします。例: `200
 | 分野 | 記事 | 発行者 | 掲載年 | 一言でいうと |
 |---|---|---|---:|---|
 | 先物流動性・市場インパクト | [Reassessing Liquidity: Beyond Order Book Depth](notes/03_Finance/04_Practitioner_Articles/2025_CME_ReassessingLiquidityBeyondOrderBookDepth.md) | CME Group | 2025 | 2025年4月の関税ショック局面で、E-mini S&P 500 futuresの流動性をorder book depthだけでなく、出来高、fill quality、price dispersion、square-root impact modelで評価する |
+| SPX 0DTE・市場影響 | [Volatility Insights: Much Ado About 0DTEs](notes/03_Finance/04_Practitioner_Articles/2023_Cboe_EvaluatingMarketImpactSPX0DTE.md) | Cboe / Mandy Xu | 2023 | 出来高でなくcustomer flowとmarket-maker net gammaでSPX 0DTEのヘッジ影響を測るべきだと整理する |
 
 ## この論文から伸びる研究テーマ
 
